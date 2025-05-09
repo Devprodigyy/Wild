@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+
+
+body{
+ font-family: "Special Gothic Expanded One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.hover-effect {
+  /* padding: 0.75rem; /* same as Tailwind's p-3 */
+  /* font-size: 0.6rem;  */
+  transition: all 0.3s ease-in-out;
+}
+
+.hover-effect:active {
+  background-color: #A8DD3A;
+  border-radius: 9999px; /* fully rounded like rounded-full */
+  /* color: #D7D7D7; */
+  font-size: 0.7rem;
+}
